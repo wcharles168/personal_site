@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  height: 100%;
+  color: #343434;
+}
+
+.section {
+  padding: 10px 25px 10px 25px;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.arrow {
+  width: 120px;
+  height: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.arrow path {
+  position: absolute;
+  stroke: #F0F0F0;
+  stroke-width: 4px;
+  fill: transparent;	
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink{
+  0% { opacity:0 }
+  25% { opacity:1 }
+  75% { opacity:0 }
+  100% { opacity:0 }
+}
+
+h1 {
+  font-size: 75px;
+}
+
+
